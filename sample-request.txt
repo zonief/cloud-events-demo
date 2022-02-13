@@ -1,0 +1,7 @@
+curl --location --request POST 'localhost:8080/echo' \
+--header 'ce-id: 5ee5a7e6-4e15-46a8-969e-a6a09ebba6dd' \
+--header 'ce-specversion: 1.0' \
+--header 'ce-type: PAYMENTSTATUS' \
+--header 'ce-source: flow-manager' \
+--header 'Content-Type: application/json' \
+--data-raw '{"id":"6e87a7e7-2696-4fcc-b760-81947798357a", "paymentStatus":"RCVD"}'
