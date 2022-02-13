@@ -7,7 +7,7 @@ import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
-public class CloudEventHandlerConfiguration implements WebMvcConfigurer {
+public class CloudEventHandlerConfig implements WebMvcConfigurer {
 
   @Override
   public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
